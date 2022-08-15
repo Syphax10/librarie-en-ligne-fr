@@ -1,0 +1,161 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "DynaPuff", cursive;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "DynaPuff", cursive;
+}
+
+.admin {
+  padding: 30px;
+}
+.admin-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+.admin-form > label {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+}
+.admin-form > label > input {
+  background: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  height: 42px;
+  padding: 0 12px;
+}
+.admin-form-select-img > span {
+  background: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  height: 42px;
+  padding: 0 12px;
+  cursor: pointer;
+}
+.admin-form-select-img > span > input[type="file"] {
+  display: none;
+}
+.admin-form > label > input:focus {
+  outline: none;
+}
+.admin-form > .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.admin-form-btns {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.admin-form-btns > button {
+  background: #6a983c;
+  border: 2px solid #46760a;
+  border-radius: 12px;
+  padding: 10px 40px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+  transition: 0.25s all;
+}
+.admin-form-btns > button:hover {
+  opacity: 0.8;
+  transform: translateY(-5px);
+}
+.admin-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+.admin-list-item {
+  display: flex;
+  align-items: center;
+}
+.admin-list-item > img {
+  height: 200px;
+  border-radius: 12px;
+  margin-right: 12px;
+}
+.admin-list-item > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.admin-list-item > div > h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 24px;
+  color: #151515;
+  margin-bottom: 4px;
+}
+.admin-list-item > div > h6 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  color: #a9a9a9;
+  margin-bottom: 4px;
+}
+.admin-list-item > div > p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  color: #151515;
+  margin-bottom: 4px;
+}
+.admin-list-item > div > h5 {
+  margin: 0;
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  color: #6a983c;
+}
+
+.admin-list-item > button {
+  background: #ff0000;
+  border: 2px solid #970000;
+  border-radius: 12px;
+  padding: 10px 40px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+  transition: 0.25s all;
+}
+.admin-list-item > button:hover {
+  opacity: 0.8;
+  transform: translateY(-5px);
+}
